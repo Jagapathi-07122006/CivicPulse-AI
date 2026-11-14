@@ -9,9 +9,9 @@ skills:
   - infrastructure-context
   - evidence-reporting
 tools:
-  - location_weather
-  - nearby_infrastructure
-  - response_brief
+  - location-weather
+  - nearby-infrastructure
+  - response-brief
 tags:
   - disaster-response
   - weather-screening
