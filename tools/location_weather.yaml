@@ -1,0 +1,12 @@
+name: location_weather
+description: Resolve a user-provided place and retrieve its live Open-Meteo forecast.
+input_schema:
+  type: object
+  properties:
+    place:
+      type: string
+    forecast_days:
+      type: integer
+      minimum: 1
+      maximum: 7
+  required: [place]

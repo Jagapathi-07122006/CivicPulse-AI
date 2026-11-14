@@ -1,0 +1,14 @@
+name: nearby_infrastructure
+description: Retrieve a bounded set of nearby mapped healthcare and emergency-service features from OpenStreetMap Overpass.
+input_schema:
+  type: object
+  properties:
+    latitude:
+      type: number
+    longitude:
+      type: number
+    radius_m:
+      type: integer
+      minimum: 500
+      maximum: 10000
+  required: [latitude, longitude]

@@ -1,0 +1,21 @@
+spec_version: "0.1.0"
+name: civicpulse-ai
+version: "0.1.0"
+description: "A transparent weather and infrastructure screening agent for local disaster-response situational awareness."
+author: "Original student project"
+license: "MIT"
+skills:
+  - weather-hazard-screening
+  - infrastructure-context
+  - evidence-reporting
+tools:
+  - location_weather
+  - nearby_infrastructure
+  - response_brief
+tags:
+  - disaster-response
+  - weather-screening
+  - explainable-ai
+metadata:
+  data_mode: "live-public-apis"
+  decision_mode: "deterministic-rule-based-screening"

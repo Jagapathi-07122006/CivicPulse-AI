@@ -1,0 +1,12 @@
+name: response_brief
+description: Produce an evidence-linked Markdown screening brief with source timestamps and limitations.
+input_schema:
+  type: object
+  properties:
+    place:
+      type: string
+    radius_m:
+      type: integer
+    forecast_days:
+      type: integer
+  required: [place]
