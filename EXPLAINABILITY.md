@@ -12,7 +12,7 @@ The agent accepts a place name and retrieves coordinates using Open-Meteo Geocod
 
 Each successful source response is accompanied by a retrieval timestamp, provider name, query details, and source URL. OpenStreetMap feature counts describe mapped objects returned within the selected radius only; they do not establish facility operating status, bed capacity, staff availability, suitability, or completeness.
 
-## Limits
+## Limitations
 
 The agent does not ingest official government disaster alerts, live road closures, verified population exposure, hospital capacity, shelter occupancy, or emergency-resource inventories in this initial version. Forecast models can change, geocoding may resolve an ambiguous place, Overpass may be unavailable, and OpenStreetMap coverage may be incomplete or stale.
 

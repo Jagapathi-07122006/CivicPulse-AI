@@ -12,7 +12,7 @@ def test_manifest_references_existing_skill_and_tool_files():
 
 def test_event_explainability_headings_and_two_sentences():
     text = (ROOT / "EXPLAINABILITY.md").read_text()
-    for heading in ("## Decision", "## Inputs", "## Limits"):
+    for heading in ("## Decision", "## Inputs", "## Limitations"):
         assert heading in text
         section = text.split(heading, 1)[1].split("\n## ", 1)[0]
         sentences = [s for s in section.replace("\n", " ").split(".") if len(s.strip()) > 15]
