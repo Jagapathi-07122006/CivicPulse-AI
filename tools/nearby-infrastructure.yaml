@@ -1,4 +1,4 @@
-name: nearby_infrastructure
+name: nearby-infrastructure
 description: Retrieve a bounded set of nearby mapped healthcare and emergency-service features from OpenStreetMap Overpass.
 input_schema:
   type: object

@@ -1,4 +1,4 @@
-name: location_weather
+name: location-weather
 description: Resolve a user-provided place and retrieve its live Open-Meteo forecast.
 input_schema:
   type: object

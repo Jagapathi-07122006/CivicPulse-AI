@@ -1,4 +1,4 @@
-name: response_brief
+name: response-brief
 description: Produce an evidence-linked Markdown screening brief with source timestamps and limitations.
 input_schema:
   type: object
